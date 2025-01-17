@@ -1,0 +1,64 @@
+h1 {text-align: left; 
+    font-family:garamond, georgia, serif;}
+h2 {font-family:garamond, georgia, serif;}
+h3 {font-family:garamond, georgia, serif;}
+h4 {font-family:garamond, georgia, serif;}
+p{font-family:garamond, georgia, serif;
+    font-size: large;}
+body{margin: 10px 100px 10px 100px;}
+div.gallery {border: 0px solid #ccc;}
+div.gallery:hover {border: 0px solid #777;}
+div.gallery #img1 {width: 100%;
+                  height: auto;
+                  padding-left: 350px;
+                  padding-right: 50px;}
+div.gallery #img2 {width: 100%;
+                  height: auto;
+                  padding-left: 50px;
+                  padding-right: 350px;}
+div.gallery #img3 {width: 100%;
+                  height: auto;
+                  padding-left: 100px;
+                  padding-right: 70px;}
+div.gallery #img4 {width: 100%;
+                  height: auto;
+                  padding-left: 0px;
+                  padding-right: 0px;}
+div.gallery #img5 {width: 100%;
+                  height: auto;
+                  padding-left: 70px;
+                  padding-right: 100px;}
+* {box-sizing: border-box;}
+.responsivetwopic {padding: 0 6px;
+             float: left;
+             width: 50%;}
+.responsivethreepic {padding: 0 6px;
+            float: left;
+            width: 33.333333%;}
+@media only screen and (max-width: 600px) {
+    .responsive {width: 50%;}}
+.clearfix:after {content: "";
+                 display: table;
+                 clear: both;}
+.sidenav {height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #170480;
+    overflow-x: hidden;
+    padding-top: 20px;}
+.sidenav a {padding: 12px 16px 12px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    font-family:garamond, georgia, serif;}
+.sidenav a:hover {color: #000000;}
+.main {margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;}
+ @media screen and (max-height: 450px) {
+         .sidenav {padding-top: 15px;}
+         .sidenav a {font-size: 18px;}}
